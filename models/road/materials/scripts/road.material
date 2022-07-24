@@ -1,0 +1,29 @@
+material Road/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture road.jpg
+      }
+    }
+  }
+}
+
+material Road/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture road.jpg
+      }
+    }
+  }
+}

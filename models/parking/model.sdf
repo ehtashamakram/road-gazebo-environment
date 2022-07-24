@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Stop Sign">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://parking/meshes/stop_sign.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://parking/meshes/stop_sign.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://parking/materials/scripts</uri>
+            <uri>model://parking/materials/textures</uri>
+            <name>Parking/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

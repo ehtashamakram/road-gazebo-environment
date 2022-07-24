@@ -1,0 +1,29 @@
+material RoundAbout/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture roundabout.jpeg
+      }
+    }
+  }
+}
+
+material StopSign/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture roundabout.jpeg
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+material RoadSection/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture roada.jpg
+        scale 105 105
+      }
+    }
+  }
+}
+
+material Road/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture roada.jpg
+        scale 105 105
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+material NoLeft/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture no_left.jpeg
+      }
+    }
+  }
+}
+
+material StopSign/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture no_left.jpeg
+      }
+    }
+  }
+}

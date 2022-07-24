@@ -1,0 +1,29 @@
+material StraightandLeft/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture straight_and_left.jpeg
+      }
+    }
+  }
+}
+
+material StopSign/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture straight_and_left.jpeg
+      }
+    }
+  }
+}

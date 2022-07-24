@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Stop Sign">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://turn_right/meshes/stop_sign.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://turn_right/meshes/stop_sign.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://turn_right/materials/scripts</uri>
+            <uri>model://turn_right/materials/textures</uri>
+            <name>TurnRight/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

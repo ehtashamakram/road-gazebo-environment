@@ -1,0 +1,340 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <name>sun1</name>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <name>road_0</name>
+        <uri>model://road</uri>
+       <pose>-7 9 0 0 0 0</pose>
+    </include>
+
+   <include>
+      <name>road_1</name>
+        <uri>model://road</uri>
+       <pose>-0.8 9 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_2</name>
+        <uri>model://road</uri>
+       <pose>5.4 9 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_2_1</name>
+        <uri>model://road</uri>
+       <pose>11.6 9 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>road_3</name>
+        <uri>model://road</uri>
+       <pose>14.2 -7 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_4</name>
+        <uri>model://road</uri>
+       <pose>14.2 -0.8 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_5</name>
+        <uri>model://road</uri>
+       <pose>14.2 5.4 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_6</name>
+        <uri>model://road</uri>
+       <pose>14.2 -13.2 0 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>road_0_1</name>
+        <uri>model://road</uri>
+       <pose>-7 0.9 0 0 0 0</pose>
+    </include>
+   <include>
+      <name>road_01</name>
+        <uri>model://road</uri>
+       <pose>-0.8 0.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_02</name>
+        <uri>model://road</uri>
+       <pose>5.4 0.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_02_1</name>
+        <uri>model://road</uri>
+       <pose>11.6 0.9 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>road_03</name>
+        <uri>model://road</uri>
+       <pose>6.8 -7 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_04</name>
+        <uri>model://road</uri>
+       <pose>6.8 -0.8 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_05</name>
+        <uri>model://road</uri>
+       <pose>6.8 5.4 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_06</name>
+        <uri>model://road</uri>
+       <pose>6.8 -13.2 0 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>road_00</name>
+        <uri>model://road</uri>
+       <pose>-7 -7.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_002</name>
+        <uri>model://road</uri>
+       <pose>5.4 -7.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_002_1</name>
+        <uri>model://road</uri>
+       <pose>11.6 -7.2 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>road_004</name>
+        <uri>model://road</uri>
+       <pose>-0.5 -0.8 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_005</name>
+        <uri>model://road</uri>
+       <pose>-0.5 5.4 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_006</name>
+        <uri>model://road</uri>
+       <pose>-0.5 -13.2 0 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>road_000</name>
+        <uri>model://road</uri>
+       <pose>-7 -15.3 0 0 0 0</pose>
+    </include>
+   <include>
+      <name>road_0001</name>
+        <uri>model://road</uri>
+       <pose>-0.8 -15.3 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_0002</name>
+        <uri>model://road</uri>
+       <pose>5.4 -15.3 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_0002_1</name>
+        <uri>model://road</uri>
+       <pose>11.6 -15.3 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>road_0003</name>
+        <uri>model://road</uri>
+       <pose>-8.65 -7 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_0004</name>
+        <uri>model://road</uri>
+       <pose>-8.65 -0.8 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_0005</name>
+        <uri>model://road</uri>
+       <pose>-8.65 5.4 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_0006</name>
+        <uri>model://road</uri>
+       <pose>-8.65 -13.2 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_111</name>
+        <uri>model://roadsection</uri>
+       <pose>-0.8 -7 -0.001 0 0 0</pose>
+    </include>
+    <include>
+      <name>road_park_1</name>
+        <uri>model://road</uri>
+       <pose>14.2 -19.4 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_park_2</name>
+        <uri>model://road</uri>
+       <pose>6.8 -19.4 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>road_park_3</name>
+        <uri>model://road</uri>
+       <pose>9.9 -21.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>stop</name>
+      <uri>model://stop_sign</uri>
+       <pose>-0.5 10.5 0 0 0 0</pose>
+    </include>  
+    <include>
+      <name>stop_2</name>
+      <uri>model://stop_sign</uri>
+       <pose>-10 1 0 0 0 1.5708</pose>
+    </include>  
+    <include>
+      <name>stop_3</name>
+      <uri>model://stop_sign</uri>
+       <pose>-10 -7 0 0 0 1.5708</pose>
+    </include>  
+    <include>
+      <name>stop_4</name>
+      <uri>model://stop_sign</uri>
+       <pose>6.5 10.5 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <name>stop_8</name>
+      <uri>model://turn_right</uri>
+       <pose>15 1 0 0 0 -1.5708</pose>
+    </include>  
+    <include>
+      <name>stop_9</name>
+      <uri>model://turn_right</uri>
+       <pose>15 -7 0 0 0 -1.5708</pose>
+    </include>  
+
+    <include>
+      <name>parking_2</name>
+      <uri>model://parking</uri>
+       <pose>14.8 -14 0 0 0 3.14</pose>
+    </include>
+    
+    
+    <include>
+      <name>signal_1</name>
+      <uri>model://stop_light</uri>
+       <pose>5.3 0 1.1 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <name>signal_2</name>
+      <uri>model://stop_light</uri>
+       <pose>-2 0 1.1 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <name>signal_3</name>
+      <uri>model://stop_light</uri>
+       <pose>5.3 -8 1.1 0 0 -1.5708</pose>
+    </include>
+
+    <include>
+      <name>goturnleft</name>
+      <uri>model://straightandleft</uri>
+       <pose>-2 2.2 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <name>goturnleft_1</name>
+      <uri>model://straightandleft</uri>
+       <pose>5.3 -5.8 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <name>goturnleft_2</name>
+      <uri>model://straightandleft</uri>
+       <pose>5.3 2.2 0 0 0 -1.5708</pose>
+    </include>
+
+    <include>
+      <name>no_right</name>
+      <uri>model://no_right</uri>
+       <pose>-0.5 -16 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <name>noleft_1</name>
+      <uri>model://no_left</uri>
+       <pose>13 -8 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>noleft_2</name>
+      <uri>model://no_left</uri>
+       <pose>13 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>dur_1</name>
+      <uri>model://dur</uri>
+       <pose>13.8 10.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>deadend_1</name>
+      <uri>model://deadend</uri>
+       <pose>7.5 -16 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <name>turnright_1</name>
+      <uri>model://turn_right</uri>
+       <pose>13 -16.1 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <name>turnleft_3</name>
+      <uri>model://turn_left</uri>
+       <pose>5.4 8 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>turnleft_4</name>
+      <uri>model://turn_left</uri>
+       <pose>12.8 8 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>turnleft_5</name>
+      <uri>model://turn_left</uri>
+       <pose>-2 8 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>turnleft_6</name>
+      <uri>model://turn_left</uri>
+       <pose>-7.8 7.8 0 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>turnleft_7</name>
+      <uri>model://turn_left</uri>
+       <pose>-9 3.1 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <name>turnleft_8</name>
+      <uri>model://turn_left</uri>
+       <pose>-9 -13.1 0 0 0 3.14</pose>
+    </include>
+
+    <include>
+      <name>roundabout_1</name>
+      <uri>model://roundabout</uri>
+       <pose>-7.8 -5 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <name>roundabout_2</name>
+      <uri>model://roundabout</uri>
+       <pose>-2 -14 0 0 0 -1.5708</pose>
+    </include>
+
+  </world>
+</sdf>

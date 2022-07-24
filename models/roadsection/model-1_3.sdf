@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<sdf version="1.3">
+  <model name="Road">
+    <link name="link">
+      <collision name="collision">
+        <pose frame=''>0 0 0.03 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roadsection/meshes/model.dae</uri>
+            <scale>0.24 0.24 0.24</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <pose frame=''>0 0 0.03 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roadsection/meshes/model.dae</uri>
+            <scale>0.24 0.24 0.24</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://roadsection/materials/scripts</uri>
+            <uri>model://roadsection/materials/textures</uri>
+            <name>RoadSection/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
